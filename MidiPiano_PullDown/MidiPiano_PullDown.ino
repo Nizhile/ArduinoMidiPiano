@@ -32,7 +32,7 @@ const int row6Pin = 7;
 //const int latchPin = 9;
 //const int clockPin = 10;
 
-int columns[NUM_COLS] = { 8, 9, 10, 11, 12, A3, A1, A2, A0};
+int columns[NUM_COLS] = { 8, 9, 10, 11, 12, A3, A2, A1, A0};
 
 boolean keyPressed[NUM_ROWS][NUM_COLS];
 uint8_t keyToMidiMap[NUM_ROWS][NUM_COLS];
